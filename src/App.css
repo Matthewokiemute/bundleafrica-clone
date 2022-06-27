@@ -1,8 +1,15 @@
 /* General Styles */
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #233333;
+  --lightPrimaryColor: #221324;
+  --secondaryColor: #123422;
+  --lightSecondaryColor: #162527;
+  --bgColor: #244556;
 }
 
