@@ -1,0 +1,33 @@
+.connected {
+  padding: 5rem 0 8rem 0;
+  height: 50rem;
+  background: #fdf7fd;
+}
+
+.wrapper {
+  margin: 6rem auto;
+  padding: 8rem 4rem;
+}
+
+.connected-text-box {
+  position: relative;
+  width: 550px;
+  top: -80px;
+  right: -90px;
+}
+
+.connected-text {
+  font-size: 1.4rem;
+  color: var(--primaryColor);
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+/* .connected-img-box {
+  min-width: 800px;
+} */
+
+.connected-img {
+  width: 100%;
+  transform: scale(1.16);
+}

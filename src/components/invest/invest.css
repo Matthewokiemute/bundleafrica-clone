@@ -1,0 +1,59 @@
+.invest {
+  padding: 5rem 0 8rem 0;
+  height: auto;
+}
+
+.wrapper {
+  width: 1200px;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.invest-img-box {
+  max-width: 520px;
+}
+
+.invest-img {
+  width: 100%;
+}
+
+.invest-text-box {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.invest-text-head {
+  font-size: 3rem;
+  color: var(--primaryColor);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+}
+
+.invest-text {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.invest-btn {
+  padding: 1rem 2rem;
+  width: fit-content;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  background: var(--primaryColor);
+}
+
+.invest-btn:hover {
+  background: var(--lightPC);
+}

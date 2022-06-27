@@ -1,0 +1,91 @@
+.username {
+  padding: 0rem 0 8rem 0;
+  height: auto;
+}
+
+.wrapper {
+  width: 1300px;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 20px;
+}
+
+.username-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 500px;
+}
+
+.user-text-head {
+  font-size: 3rem;
+  color: var(--primaryColor);
+  font-weight: 800;
+}
+
+.username-box span {
+  margin-bottom: 2rem;
+}
+
+.username-box span:last-child {
+  margin-bottom: 1.8rem;
+}
+
+.user-text-details {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-bottom: 2rem
+}
+
+.username-btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  background: var(--primaryColor);
+  width: fit-content;
+}
+
+.username-btn:hover {
+  background: var(--lightPC);
+}
+
+.gift-img-box {
+  max-width: 280px;
+}
+
+.gift-img {
+  width: 100%;
+  height: auto;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 3rem;
+}
+
+.list-icon {
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  border-radius: 50%;
+  background: #fdf7fd;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-details {
+  color: var(--primaryColor);
+  font-size: 1.2rem;
+  font-weight: 500;
+}

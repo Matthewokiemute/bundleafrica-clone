@@ -1,15 +1,15 @@
 /* General Styles */
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 :root {
-  --primaryColor: #233333;
-  --lightPrimaryColor: #221324;
-  --secondaryColor: #123422;
+  --primaryColor: rgb(96, 38, 158);
+  --lightPrimaryColor: #6326a5;
+  --lightPC: #6f37ac;
+  --secondaryColor: #3d4852;
   --lightSecondaryColor: #162527;
-  --bgColor: #244556;
+  --bgColor: rgb(251, 240, 250);
+  --boxShadow: 0 1px 38px 0 rgb(0 0 0 / 3%);
 }
 
+Link {
+  text-decoration: none;
+}
